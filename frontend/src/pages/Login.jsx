@@ -74,7 +74,7 @@ function Login() {
           <div className="error-message">
             <span className="error-icon">⚠️</span>
             <div>
-              <strong>Authentication Error</strong>
+              <strong>Login Failed</strong>
               <p>{localError || error}</p>
             </div>
           </div>
